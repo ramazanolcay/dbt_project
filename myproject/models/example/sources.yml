@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: my_source
+    database: postgres 
+    schema: public 
+    tables:
+      - name: orders
+      - name: items
+      - name: users
